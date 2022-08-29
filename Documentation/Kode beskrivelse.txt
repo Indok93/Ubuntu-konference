@@ -1,0 +1,43 @@
+form med email, navn og submit button:
+
+Submit er entrypoint, den skal evalueres når der trykkes (ja eller nej)
+- hvis ja, fjern form og vis takkebesked
+- hvis nej, style formen efter design guiden
+
+Kode dokumentation:
+	- variabler 
+		- navn --> string
+		- email --> string
+
+		- Button --> element skal have id
+		- takkebesked --> string
+	defineres som konstanter
+
+	- funktioner
+		- eval()
+			- email er en rigtig email
+				- hvis ja kør confirm
+				- eller kør error
+		- Confirm()
+			- slet form element
+			- skriv takkebesked til DOM
+		- Error()
+			- style form ud fra style guiden
+
+Cards med headline, paragraph, image og anchor:
+indeholder link, der genererer ny side og erstatter alt i DOM med anden data objekt
+kode dokumentation:
+    - variabler:
+        - figure --> string
+        - headline (h2) --> string
+        - tekst (p) --> string
+        - image (url) --> string
+        - navn (a) --> element skal have id
+
+    - funktioner:
+        - cardSelected()
+            - kør switch med cases ud fra valgt id
+
+        - cardCreate()
+            - generer talk
+                - skriv headline, description, navn

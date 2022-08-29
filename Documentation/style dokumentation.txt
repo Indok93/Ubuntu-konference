@@ -1,0 +1,24 @@
+Partials til Ubuntu Konference
+
+1. Farver (colors)
+    - Alle farver Ubuntu's brand guide giver os
+        - Opsættes som variabler ($)
+    - Ubuntu orange for community feel
+    - White for clean, fresh & light feel
+    - Black for brandmark for flexibility of application
+    - Light aubergine for consumer focus
+    - Dark aubergine for enterprise focus
+    - Mid aubergine for balance of both
+    - Warm grey kan bruges til baggrunde, grafik, mønstre, diagrammer eller stor tekst
+    - Cool grey bruges til typografi, især 'body copy' (kan også benyttes til charts og diagrammer)
+    - 
+
+2. Typografi (fonts)
+    - Inkludere en mixin
+        - fonte importeres med url
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-family: 'Ubuntu Mono', monospace;
+
+3.
