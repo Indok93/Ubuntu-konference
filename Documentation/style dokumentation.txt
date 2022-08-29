@@ -14,11 +14,76 @@ Partials til Ubuntu Konference
     - 
 
 2. Typografi (fonts)
-    - Inkludere en mixin
+    - Opret en mixin
         - fonte importeres med url
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
         font-family: 'Ubuntu', sans-serif;
         font-family: 'Ubuntu Condensed', sans-serif;
         font-family: 'Ubuntu Mono', monospace;
 
-3.
+3. Kort (cards)
+    - Opret mixins
+        - Basic, Highlighted kort, Header kort, Overlay kort
+            - styling af font type, størrelse, tykkelse
+            - styling af billede
+            - positionering
+
+4. Nyhed (news)
+    Link til cards
+    - Opret en mixin
+        -  include card og style elementer
+
+5. Formular (forms)
+    - Opret en mixin
+        - indeholder styling af input felt, input tekst, positionering
+
+6. Titler (headings)
+    - Opret mixins
+        - h1, h2, subheadings
+            - indeholder styling af font type, størrelse, tykkelse, farve mm.
+
+7. Tekst (paragraphs)
+    - Opret mixin
+        - indeholder styling af font type, størrelse, tykkelse, farve mm.
+
+8. Knapper (buttons)
+    - Oprette mixins
+        - Default, Neutral, Positiv, Negativ, Brand, Inline
+            - indeholder styling af knappen + animation (hover)
+
+9. Footer (footers)
+    - Opret mixin
+        - indeholder styling af farve, tekst størrelse, links, positionering
+
+10. Ikoner (icons)
+    - Opret mixins
+        - Logo, socials
+            - indeholder styling af størrelse og positionering
+
+11. Billeder (images)
+    - Opret mixins
+        - med border, med dropshadow
+            - indeholder styling af border og drop shadow
+
+12. Links (links)
+    - Opret mixins
+        - Default, Strong, External link, External link strong, Soft link, Back to top, Inverted link
+            - indeholder styling af link + animation (hover: underlinje)
+
+13. Lister (lists)
+    - Opret mixin
+        - indeholder styling af Lister
+
+14. reset (reset)
+    - Opret mixins
+        -   reset, reset-list
+            - indeholder styling af margin, padding og liste type
+
+15. Navigation (navigations)
+    - Opret mixin
+        - indeholder styling af menuen
+        - iclude search bar
+
+16. Søgebar (searchbars)
+    - Opret mixin
+        - indeholder styling af search bar
