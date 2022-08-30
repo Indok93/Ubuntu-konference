@@ -41,3 +41,5 @@ kode dokumentation:
         - cardCreate()
             - generer talk
                 - skriv headline, description, navn
+
+Hvis du ikke har fået udleveret tekst og billeder til en sektion, så brug LoremIpsum, og billeder efter eget valg.

@@ -23,15 +23,10 @@ Partials til Ubuntu Konference
 
 3. Kort (cards)
     - Opret mixins
-        - Basic, Highlighted kort, Header kort, Overlay kort
+        - Basic, News kort, Highlighted kort, Header kort, Overlay kort
             - styling af font type, størrelse, tykkelse
             - styling af billede
             - positionering
-
-4. Nyhed (news)
-    Link til cards
-    - Opret en mixin
-        -  include card og style elementer
 
 5. Formular (forms)
     - Opret en mixin
