@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
+    <title>Tilmelding page</title>
     <link rel="stylesheet" href="/assets/css/maincss.css">
     <script src="/assets/js/mainjs.js" defer></script>
 </head>
@@ -27,23 +27,44 @@
 
     <!-- MAIN CONTENTS -->
     <main>
-        <section>
-            <h1></h1>
-            <p></p>
-            <button><a href=""></a></button>
-        </section>
-
-        <section id="news"></section>
 
         <section>
-            <form action="#" id="interest-form">
-                <label for="">Navn
-                    <input type="text">
-                </label>
-                <label for="">Email
-                    <input type="text">
-                </label>
-                <button type="button" id="submit">Send</button>
+            <form action="#" id="tilmeldingsform">
+                <fieldset>
+                    <legend>Tilmelding</legend>
+
+                    <label for="name">Navn
+                        <input type="text" id="name">
+                    </label>
+
+                    <label for="addresse">Adresse
+                        <input type="text" id="addresse">
+                    </label>
+
+                    <label for="country">Land
+                        <input type="text" id="country">
+                    </label>
+
+                    <label for="email">Email
+                        <input type="text" id="email">
+                    </label>
+                    
+                    <select required>
+                        <option value="Hoved Interesse">Hoved interesse</option>
+                        <option value="IOT">IOT</option>
+                        <option value="DESKTOP">DESKTOP</option>
+                    </select>
+                    
+                    <label for="">
+                        <input type="checkbox">
+                    26.Oktober</label>
+                    <label for="">
+                        <input type="checkbox">
+                    27.Oktober</label>
+                    <label for="">
+                        <input type="checkbox">
+                    28.Oktober</label>
+                </fieldset>
             </form>
         </section>
 
