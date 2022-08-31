@@ -1,3 +1,17 @@
-@use "fonts";
+@use "abstracts/fonts";
+@use "abstracts/colors" as c;
+@use "components/buttons";
+@use "components/cards";
+@use "components/footers";
+@use "components/forms";
+@use "components/icons";
+@use "components/images";
+@use "components/links";
+@use "components/lists";
+@use "components/navigation";
+@use "components/paragraphs";
+@use "components/reset";
+@use "components/searchbars";
+@use "components/titles";
 
 @include fonts.mainFonts;
