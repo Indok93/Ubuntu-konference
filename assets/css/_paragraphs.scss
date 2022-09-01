@@ -6,3 +6,10 @@
     line-height: 1.5em;
     margin-left: 0.5em;
 }
+
+@mixin talkTextStyle {
+    font-family: 'Ubuntu', sans-serif;
+    color: c.$T-orange-80;
+    letter-spacing: 1px;
+    padding: 1em;
+}

@@ -84,3 +84,38 @@ footer{
         @include forms.tilmeldingForm;
     }
 }
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    #iot-talks{
+        figure{
+            @include cards.talkCard;
+            h2{
+                @include titles.talkHeadingStyle;
+            }
+            p{
+                @include paragraphs.talkTextStyle;
+            }
+            img{
+                width: 80%;
+                border-radius: 10px;
+            }
+        }
+    }
+    #desktop-talks{
+        figure{
+            @include cards.talkCard;
+            h2{
+                @include titles.talkHeadingStyle;
+            }
+            p{
+                @include paragraphs.talkTextStyle;
+            }
+            img{
+                width: 80%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

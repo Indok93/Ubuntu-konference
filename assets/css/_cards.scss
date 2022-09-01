@@ -23,3 +23,16 @@
         }
     }
 }
+
+@mixin talkCard {
+    width: 500px;
+    margin: 2em 1em;
+    background-color: c.$N-cool-grey;
+    border-radius: 10px 10px 60px 60px;
+    width: 500px;
+    margin: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

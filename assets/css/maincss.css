@@ -324,4 +324,63 @@ footer .footer-row .socials ul a .fa-square-instagram {
 .tilmelding-container form fieldset button:hover {
   background-color: #EB6536;
   cursor: pointer;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainGrid #iot-talks figure {
+  width: 500px;
+  margin: 2em 1em;
+  background-color: #333333;
+  border-radius: 10px 10px 60px 60px;
+  width: 500px;
+  margin: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainGrid #iot-talks figure h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #E95420;
+  padding: 1em;
+}
+.mainGrid #iot-talks figure p {
+  font-family: "Ubuntu", sans-serif;
+  color: #ED764D;
+  letter-spacing: 1px;
+  padding: 1em;
+}
+.mainGrid #iot-talks figure img {
+  width: 80%;
+  border-radius: 10px;
+}
+.mainGrid #desktop-talks figure {
+  width: 500px;
+  margin: 2em 1em;
+  background-color: #333333;
+  border-radius: 10px 10px 60px 60px;
+  width: 500px;
+  margin: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainGrid #desktop-talks figure h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #E95420;
+  padding: 1em;
+}
+.mainGrid #desktop-talks figure p {
+  font-family: "Ubuntu", sans-serif;
+  color: #ED764D;
+  letter-spacing: 1px;
+  padding: 1em;
+}
+.mainGrid #desktop-talks figure img {
+  width: 80%;
+  border-radius: 10px;
 }/*# sourceMappingURL=maincss.css.map */
