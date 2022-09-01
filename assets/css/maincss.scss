@@ -15,3 +15,8 @@
 @use "components/titles";
 
 @include fonts.mainFonts;
+
+*{
+    margin: 0;
+    padding: 0;
+}
