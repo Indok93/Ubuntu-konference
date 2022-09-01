@@ -1,5 +1,14 @@
 @use "colors" as c;
 @use "buttons";
+@use "fonts";
+
+@mixin containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
 
 @mixin interestForm {
     width: 300px;
@@ -18,5 +27,46 @@
     }
     button:hover{
         @include buttons.buttonHover;
+    }
+}
+
+@mixin tilmeldingForm {
+    width: 600px;
+    border: 2px solid c.$T-warm-grey-80;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: c.$T-warm-grey-90;
+    fieldset{
+        border-width: 10px;
+        border-radius: 5px;
+        legend{
+            font-size: 2em;
+            font-family: 'Ubuntu', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: c.$N-cool-grey;
+        }
+        label{
+            display: block;
+            color: c.$N-cool-grey;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        input{
+
+        }
+        select{
+            option{
+
+            }
+        }
+        input[type=checkbox]{
+
+        }
+        button{
+
+        }
+        button:hover{
+
+        }
     }
 }

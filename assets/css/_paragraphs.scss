@@ -1,0 +1,8 @@
+@use "colors" as c;
+
+@mixin infoText {
+    font-family: 'Ubuntu', sans-serif;
+    color: c.$P-white;
+    line-height: 1.5em;
+    margin-left: 0.5em;
+}

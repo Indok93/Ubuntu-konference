@@ -1,0 +1,8 @@
+@use "colors" as c;
+
+@mixin h1Style {
+    font-family: 'Ubuntu', sans-serif;
+    color: c.$P-white;
+    padding-top: 1em;
+    margin-left: 0.5em;
+}

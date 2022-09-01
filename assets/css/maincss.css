@@ -206,6 +206,7 @@ footer .footer-row {
   display: flex;
   max-width: 1200px;
   margin: auto;
+  height: 200px;
 }
 footer .footer-row .footer-list {
   display: flex;
@@ -254,4 +255,35 @@ footer .footer-row .socials ul a .fa-square-twitter {
 }
 footer .footer-row .socials ul a .fa-square-instagram {
   color: #405DE6;
+}
+
+.tilmelding-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.tilmelding-container form {
+  width: 600px;
+  border: 2px solid #BEB8B2;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #B6AFA8;
+}
+.tilmelding-container form fieldset {
+  border-width: 10px;
+  border-radius: 5px;
+}
+.tilmelding-container form fieldset legend {
+  font-size: 2em;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+}
+.tilmelding-container form fieldset label {
+  display: block;
+  color: #333333;
+  font-family: "Ubuntu", sans-serif;
 }/*# sourceMappingURL=maincss.css.map */

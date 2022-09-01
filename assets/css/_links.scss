@@ -1,0 +1,16 @@
+@mixin iconLink {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    .icon-card{
+        display: flex;
+        justify-content: center;
+        div{
+            width: 100px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
