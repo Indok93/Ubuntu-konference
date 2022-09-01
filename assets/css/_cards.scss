@@ -1,0 +1,25 @@
+@use "colors" as c;
+
+@mixin newsStyle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1200px;
+    margin: auto;
+    figure{
+        background-color: c.$N-warm-grey;
+        margin: 1em 0;
+        h2{
+            font-family: 'Ubuntu', sans-serif;
+            color: c.$T-orange-20;
+            text-align: center;
+        }
+        p{
+            font-family: 'Ubuntu', sans-serif;
+            color: c.$T-orange-40;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+    }
+}

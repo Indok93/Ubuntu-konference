@@ -1,0 +1,22 @@
+@use "colors" as c;
+@use "buttons";
+
+@mixin interestForm {
+    width: 300px;
+    border: 2px solid c.$T-warm-grey-80;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: c.$T-warm-grey-90;
+    input{
+        width: 100%;
+        padding: 1em;
+        margin-bottom: 0.5em;
+        box-sizing: border-box;
+    }
+    button{
+        @include buttons.buttonForm;
+    }
+    button:hover{
+        @include buttons.buttonHover;
+    }
+}

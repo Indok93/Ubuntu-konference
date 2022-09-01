@@ -1,0 +1,45 @@
+@use "colors" as c;
+
+@mixin buttonDefault {
+    background-color: c.$P-orange;
+    padding: 0.4em 2.6em;
+    border: 1px solid c.$P-orange;
+    border-radius: 3px;
+    a{
+        text-decoration: none;
+        color: c.$T-orange-10;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+@mixin buttonForm {
+    background-color: c.$P-orange;
+    font-size: 1.2em;
+    padding: 0.3em;
+    border: 1px solid c.$P-orange;
+    border-radius: 3px;
+    text-decoration: none;
+    color: c.$T-orange-10;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+}
+
+@mixin buttonHover {
+    background-color: c.$T-orange-90;
+    cursor: pointer;
+}
+
+@mixin buttonNegative {
+    
+}
+
+@mixin buttonBrand {
+    
+}
+
+@mixin buttonInline {
+    
+}
