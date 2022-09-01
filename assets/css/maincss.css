@@ -186,6 +186,7 @@ main .form-container div p {
 main .icon-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin: 2em 0;
 }
 main .icon-grid .icon-card {
   display: flex;
@@ -268,11 +269,11 @@ footer .footer-row .socials ul a .fa-square-instagram {
   width: 600px;
   border: 2px solid #BEB8B2;
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
   background-color: #B6AFA8;
 }
 .tilmelding-container form fieldset {
-  border-width: 10px;
+  border-width: 5px;
   border-radius: 5px;
 }
 .tilmelding-container form fieldset legend {
@@ -283,7 +284,44 @@ footer .footer-row .socials ul a .fa-square-instagram {
   color: #333333;
 }
 .tilmelding-container form fieldset label {
-  display: block;
+  display: inline-block;
   color: #333333;
   font-family: "Ubuntu", sans-serif;
+  color: #FFFFFF;
+}
+.tilmelding-container form fieldset input[type=text] {
+  display: block;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  background-color: #EB6536;
+}
+.tilmelding-container form fieldset input[type=checkbox] {
+  display: inline-block;
+}
+.tilmelding-container form fieldset select {
+  display: block;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  background-color: #EB6536;
+  color: #FFFFFF;
+}
+.tilmelding-container form fieldset select option {
+  color: #FFFFFF;
+}
+.tilmelding-container form fieldset button {
+  background-color: #E95420;
+  font-size: 1.2em;
+  padding: 0.3em;
+  border: 1px solid #E95420;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #FDEEE9;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+}
+.tilmelding-container form fieldset button:hover {
+  background-color: #EB6536;
+  cursor: pointer;
 }/*# sourceMappingURL=maincss.css.map */

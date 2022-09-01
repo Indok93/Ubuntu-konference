@@ -1,6 +1,7 @@
 @mixin iconLink {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin: 2em 0;
     .icon-card{
         display: flex;
         justify-content: center;

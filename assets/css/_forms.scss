@@ -34,10 +34,10 @@
     width: 600px;
     border: 2px solid c.$T-warm-grey-80;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     background-color: c.$T-warm-grey-90;
     fieldset{
-        border-width: 10px;
+        border-width: 5px;
         border-radius: 5px;
         legend{
             font-size: 2em;
@@ -47,26 +47,36 @@
             color: c.$N-cool-grey;
         }
         label{
-            display: block;
+            display: inline-block;
             color: c.$N-cool-grey;
             font-family: 'Ubuntu', sans-serif;
+            color: c.$P-white;
         }
-        input{
-
-        }
-        select{
-            option{
-
-            }
+        input[type=text]{
+            display: block;
+            padding: 5px 5px;
+            box-sizing: border-box;
+            margin-bottom: 0.5em;
+            background-color: c.$T-orange-90;
         }
         input[type=checkbox]{
-
+            display: inline-block;
+        }
+        select{
+            display: block;
+            padding: 5px 5px;
+            box-sizing: border-box;
+            background-color: c.$T-orange-90;
+            color: c.$P-white;
+            option{
+                color: c.$P-white
+            }
         }
         button{
-
+            @include buttons.buttonForm;
         }
         button:hover{
-
+            @include buttons.buttonHover;
         }
     }
 }
